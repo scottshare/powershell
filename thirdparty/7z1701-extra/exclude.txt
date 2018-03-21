@@ -1,0 +1,13 @@
+Files
+Log
+TempFiles
+Temp
+MakePriceLog
+ParamValueFiles
+ProcessFiles
+*.rar
+*.zip
+*.7z
+bin\*.rar
+bin\*.zip
+bin\*.7z
