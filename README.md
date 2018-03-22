@@ -56,3 +56,20 @@ Compress-7Z -Source "E:\demo\hel" -Destination "E:\hel.7z" -FilterConfig "E:\exc
 . "$PSScriptRoot\Compress-Methods.ps1"
 Expand-7Z -Source "E:\hel.7z" -Destination "E:\demo\hel"
 ```
+
+## 停止应用程序池
+> Stop-IISAppPool
+``` powershell
+Stop-IISAppPool 'poolName'
+```
+## 启动应用程序池
+> Start-IISAppPool
+``` powershell
+Start-IISAppPool 'poolName'
+```
+
+## 打印应用程序池信息
+> Print-IISAppPool
+``` powershell
+Print-IISAppPool 'poolName'
+```
